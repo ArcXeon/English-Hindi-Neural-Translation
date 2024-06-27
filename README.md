@@ -1,14 +1,36 @@
 # English-Hindi-Nlp-Translation
-The code focuses on implementing English-to-Hindi translation using the MBart model and tokenizer from the Hugging Face Transformers library.
+# Introduction
+This project focuses on implementing an English-to-Hindi translation system using the MBart model and tokenizer from the Hugging Face Transformers library. The primary objective is to leverage pre-trained models to facilitate cross-lingual natural language generation, specifically translating English sentences into Hindi.
 
-Import necessary libraries and set up the environment, import data from CSV file containing English-Hindi Sentence Pairs Dataset.
+# Dataset
+The dataset comprises English-Hindi sentence pairs, stored in a CSV file. Each row contains an English sentence and its corresponding Hindi translation. This dataset is critical for both training and evaluating the translation model.
 
-Data visualization of the imported data using FastEda Library.
+# Methodolgy
+# Importing Libraries
+The first step is to import the necessary libraries and tool:
+Transformers: For accessing the MBart model and tokenizer.
+Pandas: For data manipulation and handling.
+FastEda: For data visualization.
+Matplotlib/Seaborn: For creating visualizations
+Numpy: For numerical computations
 
-Performed extensive data preprocessing steps such as text cleaning, tokenization, and adding special tokens to mark sentence boundaries.
+## Data Import and Visualization
+The next step involves importing the dataset from the CSV file and performing initial data exploration and visualization using the FastEda library. This helps understand the dataset's structure, distribution, and other essential characteristics.
 
-Calculated various metrics like sentence lengths and word frequencies in preparation for model training.
+# Data Preprocessing
+Data preprocessing is crucial for preparing the text for model training. The steps include:
+Text Cleaning: Removing unwanted characters, punctuation, and extra spaces.
+Tokenization: Splitting sentences into individual tokens.
+Adding Special Tokens: Creating sequence boundary marking
 
-The core of the code involves initializing the MBart model and tokenizer for Hindi translation. Created a translation function that takes an English input sentence, tokenizes it using the tokenizer, generates Hindi translations using the pre-trained MBart model, and formats the output.
+# Metric Calculation
+Various metrics such as sentence lengths and word frequencies are calculated to gain insights into the dataset and prepare it for model training.
 
-The translation results are demonstrated by applying the function to a sample of English sentences and printing both the original Hindi sentences from the dataset and their translated counterparts.
+# Model Initialization and Translation Function
+The MBart model and tokenizer are initialized for Hindi translation. A translation function is created to take an English input sentence, tokenize it, generate Hindi translations using the MBart model, and format the output
+
+# Translation Results
+The translation function is applied to a sample of English sentences from the dataset, and the results are printed alongside the original Hindi sentences.
+
+
+

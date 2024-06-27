@@ -1,4 +1,4 @@
-# English-Hindi-Nlp-Translation
+# English-Hindi-Natural-Language-Translation
 # Introduction
 This project focuses on implementing an English-to-Hindi translation system using the MBart model and tokenizer from the Hugging Face Transformers library. The primary objective is to leverage pre-trained models to facilitate cross-lingual natural language generation, specifically translating English sentences into Hindi.
 

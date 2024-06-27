@@ -1,9 +1,9 @@
 # English-Hindi-Nlp-Translation
 The code focuses on implementing English-to-Hindi translation using the MBart model and tokenizer from the Hugging Face Transformers library.
 
-Import necessary libraries and set up the environment, import data from CSV file containing English-Hindi Corpus Dataset.
+Import necessary libraries and set up the environment, import data from CSV file containing English-Hindi Sentence Pairs Dataset.
 
-Visualized the data using FastEda Library.
+Data visualization of the imported data using FastEda Library.
 
 Performed extensive data preprocessing steps such as text cleaning, tokenization, and adding special tokens to mark sentence boundaries.
 
